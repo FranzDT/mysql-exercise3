@@ -4,6 +4,6 @@ create table users(
 	password varchar(40) NOT NULL,
 	first_name varchar(40) NULL,
 	last_name varchar(40) NULL,
-	access_type int(5) NOT NULL,
+	access_type_id int(5) NOT NULL,
 	primary key (id)
 );
